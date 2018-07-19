@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Page Factory">
+	<test name="Test PF Facebook Login">
+		<classes>
+			<class name="testNGPageFactory.TestFBLoginPF" />
+		</classes>
+	</test>
+</suite>

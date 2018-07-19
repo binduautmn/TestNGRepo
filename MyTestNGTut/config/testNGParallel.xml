@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TEstNG Parallel" parallel="classes">
+	<test name="Test Parallel Asert">
+		<parameter name="int1" value="10" />
+		<parameter name="int2" value="11" />
+		<parameter name="bVal" value="true" />
+		<classes>
+			<class name="testNG.TestAssertionsParams" />
+		</classes>
+	</test>
+	<test name="Test Parallel Dependency">
+		<classes>
+			<class name="testNG.TestDependencyUsingFB" />
+		</classes>
+	</test>
+</suite>

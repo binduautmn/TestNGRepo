@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestFB POM">
+	<test name="Test FB Login">
+		<classes>
+			<class name="TestNG_POM.TestFBLoginPage" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,6 @@
+jenkins admin login
+
+localhost:8080
+
+binduautmn
+dingari

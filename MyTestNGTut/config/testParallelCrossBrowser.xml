@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Parallel CB" parallel="tests">
+	<test name="Test Parallel Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="testNG.TestCrossBrowser" />
+		</classes>
+	</test>
+	<test name="Test Parallel Dependency">
+		<parameter name="browser" value="IE" />
+		<classes>
+			<class name="testNG.TestCrossBrowser" />
+		</classes>
+	</test>
+</suite>

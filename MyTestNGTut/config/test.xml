@@ -1,0 +1,9 @@
+
+<suite name="Demo Suite">
+	<test name="FaceBook Demo">
+		<classes>
+			<class name="testNG.TestDependencyUsingFB">
+			</class>
+		</classes>
+	</test>
+</suite>

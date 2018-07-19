@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Params Demo">
+	<test name="TEst Parameters">
+	<parameter name="int1" value="10"/>
+	<parameter name="int2" value="11"/>
+	<parameter name="bVal" value="true"/>
+		<classes>
+			<class name="testNG.TestAssertionsParams" />
+		</classes>
+	</test>
+</suite>
