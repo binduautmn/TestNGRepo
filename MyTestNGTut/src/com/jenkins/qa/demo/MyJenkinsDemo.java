@@ -31,6 +31,8 @@ public class MyJenkinsDemo {
 	  driver.findElement(By.partialLinkText("Deals")).click();
 	  System.out.println("Page opened now::"+driver.getTitle());
 	  
+	  System.out.println("Done and browser will be closed now");
+	  
 	  
   }
   @BeforeTest
